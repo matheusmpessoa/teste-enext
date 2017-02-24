@@ -70,10 +70,10 @@ nav {
 
 /* Configuração de sections */
 section {
-	padding-top:70px;
-    padding-bottom:50px;
-    min-height:100%;
-    min-height:calc(100% - 0);
+	padding-top: 50px;
+    padding-bottom: 50px;
+    min-height: 100%;
+    min-height: calc(100% - 0);
     -webkit-transform-style: preserve-3d;
     -moz-transform-style: preserve-3d;
     transform-style: preserve-3d;
@@ -142,39 +142,52 @@ footer {
     color: #727272;
     min-height: 100px;
     padding-top: 20px;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
 }
 
 footer .nav>li>a {
     padding: 3px;
-    color: #523468;
+    color: #d73b1e;
+    font-weight: 400;
 }
 
 footer .nav>li>a:hover {
-    color: #d73b1e;
+    color: #523468;
+}
+
+footer .fa-stack{
+    padding-left: 80px;
+}
+
+.fa-circle  {
+    color: #523468;
+}
+
+.newsletter {
+    background-color: #fff;
+    font-family: 'Droid Sans', sans-serif;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    color: #727272;
+}
+.newsletter .italico{
+    font-style: italic;
+}
+
+.redesSociais {
+    padding:30px 0px 0px 0px;
 }
 
 .direitosSite {
-    padding: 30px 0px 0px 0px;
+    padding: 5px 0px 0px 0px;
+}
+
+.btnSubmit{
+    border-radius: 5px;
 }
 
 /* Estilizações gerais */
 .sublinhar{
     text-decoration: underline;
-}
-
-.alinhar-esq{
-    float: left;
-}
-
-.alinhar-dir{
-    float: right;
-}
-
-.alinhar-centro{
-    align-content: center;
-}
-
-.arredondar-img{
-    border-radius: 10px;
 }

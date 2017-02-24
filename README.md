@@ -13,7 +13,7 @@ Teste Enext
 * 10.3 mb
 
 ### Tempo utilizado para desenvolver aplicação
-* 2 dias
+* 1 dia
 
 ### Linguagens utilizadas
 * HTML5
