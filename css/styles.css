@@ -1,11 +1,9 @@
-@import url(http://fonts.googleapis.com/css?family=Lato:300,400);
-@import url(http://fonts.googleapis.com/css?family=Bitter:400);
+@import url('https://fonts.googleapis.com/css?family=Droid+Sans|Oswald');
 
 html,
 body {
     height: 100%;
     background-size: cover;
-    font-family: 'Lato', sans-serif;
 }
 
 @media (min-width:768px) {
@@ -33,58 +31,45 @@ a.text-danger {
     color: #fff;
 }
 
-.btn-huge {
-    padding: 17px 22px;
-    font-size: 22px;
-}
-
-.lato {
-    font-family: 'Lato', sans-serif;
-}
-
-.bitter {
-    font-family: 'Bitter', serif;
+nav {
+    font-family: 'Droid Sans', sans-serif;
 }
 
 .icon-bar {
     background-color: #fff;
 }
-
 .navbar-trans {
     background-color: #523468;
     color: #fff;
     border-width: 0;
 }
-
 .navbar-trans .navbar-brand,
 .navbar-trans >.container-fluid .navbar-brand {
     padding: 14px;
     color: #fff;
 }
-
 .navbar-trans li>a:focus,
 .navbar-trans li.active {
     background-color: #fff;
     color: #333;
 }
-
 .navbar-trans li>a:hover {
     background-color: #fff;
     color: #523468;
     opacity: 0.5;
 }
-
 .navbar-trans a {
     color: #cdcdcd;
     letter-spacing: 1px;
+    font-style: italic;
 }
-
 .navbar-trans .form-control:focus {
     border-color: #eee;
     outline: 0;
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(100, 100, 100, 0.6);
 }
 
+/* Configuração de sections */
 section {
 	padding-top:70px;
     padding-bottom:50px;
@@ -107,27 +92,52 @@ section {
         right: 0;
     }
 }
+/* Header info */
+#logo {
+    padding: 20px 10px 20px 0px;
+}
+.search {
+    padding: 30px 0px 0px 0px;
+}
+.inputSearch {
+    font-family: 'FontAwesome';
+}
+.oferta {
+    padding: 0px 0px 0px 30px;
+    color: #d73b1e;
+    font-style: italic;
+}
+.caldeirao {
+    padding: 10px 0px 0px 15px;
+}
+.bag {
+    padding: 15px 0px 0px 0px;
+    color: #b3b3b3;
+    font-weight: 700;
+}
+.qntdBag {
+    color: #d73b1e;
+}
 
+/* Nav */
+.dropdown:hover .dropdown-menu {
+   display: block;
+}
 
+/* Potions */
 #home,
-#portfolio {
+#potions {
     color: #fff;
     font-family: 'Bitter', serif;
 }
-
-#portfolio {
-
-}
-
-#portfolio h1{
+#potions h1{
     color: #f44d3c;
 }
-
-#portfolio h4{
+#potions h4{
     text-decoration: underline;
 }
 
-
+/* Footer */
 footer {
     background-color: #2b2b2b;
     color: #ddd;
@@ -146,6 +156,7 @@ footer .nav>li>a:hover {
     color: #fff;
 }
 
+/* Estilizações gerais */
 .sublinhar{
     text-decoration: underline;
 }

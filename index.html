@@ -23,9 +23,41 @@
 </head>
 
 <body>
-    <div class="container">
-        <img src="assets/logo/logo.png" alt="">
-    </div>
+    <header>
+        <div class="container" id="#home">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-3">
+                <div class="row">
+                    <img src="assets/logo/logo.png" alt="Logo" id="logo">
+                </div>
+            </div>
+
+            <div class="col-sm-3">
+                <div class="row search">
+                    <input type="text" class="form-control inputSearch" placeholder="&#xf002; Search our stock">
+                </div>
+            </div>
+
+            <div class="col-sm-2">
+                <div class="row oferta">
+                    <h3>Free Shipping</h3>
+                    <h4>on orders over $50</h4>
+                </div>
+            </div>
+
+            <div class="col-sm-1 col-xs-6">
+                <div class="row caldeirao">
+                    <img src="assets/logo/caldeirao.png" alt="Caldeirao" class="caldeirao">
+                </div>
+            </div>
+
+            <div class="col-sm-2 col-xs-6">
+                <div class="row caldeirao">
+                    <h4 class="bag">BAG: <span class="qntdBag">1</span></h4>
+                </div>
+            </div>
+        </div>
+    </header>
     <nav class="navbar navbar-trans">
         <div class="container">
             <div class="navbar-header">
@@ -37,22 +69,67 @@
                 </button>
             </div>
             <div class="navbar-collapse collapse" id="navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                            Potions<span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#">Option 1</a></li>
+                            <li><a href="#">Option 2</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                            Ingredients<span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#">Option 1</a></li>
+                            <li><a href="#">Option 2</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                            Books<span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#">Option 1</a></li>
+                            <li><a href="#">Option 2</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                            Supplies<span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#">Option 1</a></li>
+                            <li><a href="#">Option 2</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                            Charms<span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#">Option 1</a></li>
+                            <li><a href="#">Option 2</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <!-- Fim dropdowns -->
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#home">HOME</a></li>
-                    <li><a href="#sobre">SOBRE</a></li>
-                    <li><a href="#portfolio">PORTFÓLIO</a></li>
-                    <li><a href="#contato">CONTATO</a></li>
+                    <li><a href="#">Sign in</a></li>
+                    <li><a href="#">Sign up</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <section class="container-fluid" id="portfolio">
+    <section class="container-fluid" id="potions">
         <div class="container">
             <div class="row">
                 <div class="col-sm-1"></div>
-                <h1 class="text-center">Portfólio</h1>
-
+                <h2>Potions</h2>
                 <div class="col-sm-3">
                     <div class="row">
                         <h2>Aplicativos móveis</h2>
@@ -66,30 +143,6 @@
                                 <a href="https://github.com/matheusmpessoa/app-hiramabif" class="btn btn-danger btn-sm lato alinhar-dir">Ver mais</a>
                             </div>
                         </div>
-                        <hr>
-                        <div class="media">
-                            <h4>Biografia Músicos</h4>
-                            <div class="media-body media-middle">
-                                <p>Aplicativo criado para obter informações da vida de carreira de músicos.</p>
-                                <a href="https://github.com/matheusmpessoa/app-biografiamusicos" class="btn btn-danger btn-sm lato alinhar-esq">Ver mais</a>
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="media">
-                            <h4>Tradução</h4>
-                            <div class="media-body media-middle">
-                                <p>Aplicativo de tradução e registro de palavras, criando assim um dicionário.</p>
-                                <a href="https://github.com/matheusmpessoa/app-traducao" class="btn btn-danger btn-sm lato alinhar-esq">Ver mais</a>
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="media">
-                            <h4>Fibonacci</h4>
-                            <div class="media-body media-middle">
-                                <p>Aplicativo criado para cálculo da sequência de Fibonacci.</p>
-                                <a href="https://github.com/matheusmpessoa/app-fibonacci" class="btn btn-danger btn-sm lato alinhar-esq">Ver mais</a>
-                            </div>
-                        </div>
                     </div>
                 </div>
                 <div class="col-sm-1"></div>
@@ -101,36 +154,6 @@
                             <div class="media-body">
                                 <p>Repositório do meu portfólio.</p>
                                 <a href="https://github.com/matheusmpessoa/matheusmpessoa.github.io" class="btn btn-danger btn-sm lato alinhar-esq">Ver mais</a>
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="media">
-                            <h4>Routing AngularJS</h4>
-                            <div class="media-body media-middle">
-                                <p>Sistema de uma página controlada por AngularJS.</p>
-                                <a href="https://matheusmpessoa.github.io/routing-angularjs/#/" class="btn btn-danger btn-sm lato alinhar-esq">Ver aplicação</a>
-                                <br>
-                                <br>
-                                <a href="https://github.com/matheusmpessoa/routing-angularjs" class="btn btn-danger btn-sm lato alinhar-esq">Ver mais</a>
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="media">
-                            <h4>Contact List App</h4>
-                            <div class="media-body media-middle">
-                                <p>Sistema de agenda de contatos, criado com a MEAN stack.</p>
-                                <a href="https://github.com/matheusmpessoa/app-contactListApp-mean" class="btn btn-danger btn-sm lato alinhar-esq">Ver mais</a>
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="media">
-                            <h4>Gem Store</h4>
-                            <div class="media-left">
-                                <img src="img/portfolio/sistemas/gem.gif" alt="Logo Capítulo Hiram Abif" class="arredondar-img">
-                            </div>
-                            <div class="media-body media-middle">
-                                <p>E-commerce de Gems, navegação e efeitos criados para estudo utilizando AngularJS.</p>
-                                <a href="https://github.com/matheusmpessoa/gemstore-angularjs" class="btn btn-danger btn-sm lato alinhar-dir">Ver mais</a>
                             </div>
                         </div>
                     </div>
@@ -192,10 +215,6 @@
             <p class="text-right">© 2017</p>
         </div>
     </footer>
-
-    <div class="scroll-up">
-        <a href="#home"><i class="fa fa-angle-up"></i></a>
-    </div>
 
     <!-- jQuery -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
