@@ -1,6 +1,9 @@
 # teste-enext
 Teste Enext
 
+## Teste
+* __[quero-trabalhar-na-enext](https://github.com/enextgroup/quero-trabalhar-na-enext)__
+
 ## Como executar a aplicação
 1. Faça um download ou clone o repositório.
 2. Execute/abra o *index.html* do projeto.
@@ -10,7 +13,7 @@ Teste Enext
 ## Sobre o projeto
 
 ### Tamanho total do projeto
-* 10.3 mb
+* 9,85 mb
 
 ### Tempo utilizado para desenvolver aplicação
 * 1 dia
