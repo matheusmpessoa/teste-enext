@@ -3,7 +3,7 @@ Teste Enext
 
 ## Como executar a aplicação
 1. Faça um download ou clone o repositório.
-2. Abra o *index.html* do projeto.
+2. Execute/abra o *index.html* do projeto.
 
 ---
 
@@ -25,3 +25,4 @@ Teste Enext
 
 ### Bibliotecas utilizadas
 * jQuery
+* Fontawesome
