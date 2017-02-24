@@ -55,8 +55,7 @@ nav {
 }
 .navbar-trans li>a:hover {
     background-color: #fff;
-    color: #523468;
-    opacity: 0.5;
+    color: #d73b1e;
 }
 .navbar-trans a {
     color: #cdcdcd;
@@ -127,8 +126,8 @@ section {
 /* Potions */
 #home,
 #potions {
-    color: #fff;
-    font-family: 'Bitter', serif;
+    color: #000;
+    font-family: 'Droid Sans', sans-serif;
 }
 #potions h1{
     color: #f44d3c;
@@ -139,8 +138,8 @@ section {
 
 /* Footer */
 footer {
-    background-color: #2b2b2b;
-    color: #ddd;
+    background-color: #e6e6e6;
+    color: #727272;
     min-height: 100px;
     padding-top: 20px;
     padding-bottom: 40px;
@@ -148,12 +147,15 @@ footer {
 
 footer .nav>li>a {
     padding: 3px;
-    color: #f44d3c;
+    color: #523468;
 }
 
 footer .nav>li>a:hover {
-    background-color: transparent;
-    color: #fff;
+    color: #d73b1e;
+}
+
+.direitosSite {
+    padding: 30px 0px 0px 0px;
 }
 
 /* Estilizações gerais */
